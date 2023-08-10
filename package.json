@@ -1,0 +1,23 @@
+{
+  "name": "reto-4-frontend-mentor",
+  "version": "1.0.0",
+  "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailDev" :"npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmmtdeveloper/Reto-4-Frontend-Mentor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmmtdeveloper/Reto-4-Frontend-Mentor/issues"
+  },
+  "homepage": "https://github.com/dmmtdeveloper/Reto-4-Frontend-Mentor#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
