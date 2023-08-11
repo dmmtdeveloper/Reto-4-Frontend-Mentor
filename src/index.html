@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/src/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <script src="./js/main.js" defer></script>
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body class="font-inter w-[90%] mx-auto max-w-screen-xl">
+
+  <nav class="flex items-center justify-between py-10 " >
+    <img src="../images/logo.svg" alt="">
+
+
+    <div class="w-6 h-6 bg-menu-open bg-no-repeat bg-center relative cursor-pointer transition-all z-10" id="icon" >
+    </div>
+
+    <section class="fixed inset-0 bg-black/60 opacity-0 pointer-events-none transition-all" id="menu">
+
+      <ul class="w-3/4 bg-Off-white h-full text-Verydarkblue absolute right-0 top-0 grid content-center gap-4 pl-6">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+
+      </ul>
+
+    </section>
+  </nav>
+
+  <section>
+    <div class="h-96 bg-hero-mobile bg-center bg-no-repeat block ">
+
+    </div>
+
+    <article class="grid gap-6 mt-12">
+
+      <h1 class="text-5xl font-extrabold text-Verydarkblue">The Bright Future of Web 3.0?</h1>
+
+      <p class="text-base text-Verydarkblue">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.But is it really fulfilling its promise?</p>
+
+      <a href="#" class="inline-block bg-softRed text-Off-white py-3 px-8 justify-self-start self-start">Read more</a>
+
+    </article>
+  </section>
+
+  <aside>
+    <h2>New</h2>
+
+    <article>
+      <h2>Hydrogen VS Electric Cars</h2>
+    </article>
+    
+  </aside>
+
+</body>
+</html>
